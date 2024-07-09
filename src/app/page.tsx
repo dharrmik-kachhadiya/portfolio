@@ -8,7 +8,6 @@ export default async function Home() {
           <div className="intro">
             <img
               src="/imgs/profile.jpg"
-              alt="Al Siam Profile"
               className="shadow-dark"
             />
             <h1>Dharmik Kachhadiya</h1>

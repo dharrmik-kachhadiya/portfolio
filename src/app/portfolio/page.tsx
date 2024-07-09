@@ -18,7 +18,6 @@ const Portfolio: NextPage = () => {
             </div>
           </div>
           <div className="row">
-            {/* Portfolio Item */}
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
@@ -29,8 +28,6 @@ const Portfolio: NextPage = () => {
                 </div>
               </div>
             </div>
-            {/* Portfolio Item End*/}
-            {/* Portfolio Item */}
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
@@ -41,8 +38,6 @@ const Portfolio: NextPage = () => {
                 </div>
               </div>
             </div>
-            {/* Portfolio Item End*/}
-            {/* Portfolio Item */}
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
@@ -53,8 +48,6 @@ const Portfolio: NextPage = () => {
                 </div>
               </div>
             </div>
-            {/* Portfolio Item End*/}
-            {/* Portfolio Item */}
             <div
               className="portfolio-item padd-15"
               data-category="graphics-design"

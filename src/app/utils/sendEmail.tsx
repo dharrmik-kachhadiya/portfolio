@@ -19,20 +19,16 @@ interface EmailParams {
   text: string;
 }
 
-// Function to send email
 export async function sendEmail({ from, subject, text }: EmailParams): Promise<void> {
   try {
-    console.log('from', from)
-    // send mail with defined transport object
     await transporter.sendMail({
       from,
       to: 'dharmik.kachhadiya.02@gmail.com',
       subject,
       text,
+      replyTo: from
     });
-    console.log('Email sent successfully');
   } catch (error) {
-    console.error('Error sending email:', error);
     throw new Error('Failed to send email');
   }
 }

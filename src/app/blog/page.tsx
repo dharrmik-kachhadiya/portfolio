@@ -11,7 +11,6 @@ const Blog: NextPage = () => {
             </div>
           </div>
           <div className="row">
-            {/* Blog Item 1 */}
             <div className="blog-item padd-15">
               <div className="blog-item-inner shadow-dark">
                 <div className="blog-img">
@@ -34,8 +33,6 @@ const Blog: NextPage = () => {
                 </div>
               </div>
             </div>
-            {/* Blog Item 1 End */}
-            {/* Blog Item 2 */}
             <div className="blog-item padd-15">
               <div className="blog-item-inner shadow-dark">
                 <div className="blog-img">
@@ -58,8 +55,6 @@ const Blog: NextPage = () => {
                 </div>
               </div>
             </div>
-            {/* Blog Item 2 End */}
-            {/* Blog Item 3 */}
             <div className="blog-item padd-15">
               <div className="blog-item-inner shadow-dark">
                 <div className="blog-img">
@@ -82,7 +77,6 @@ const Blog: NextPage = () => {
                 </div>
               </div>
             </div>
-            {/* Blog Item 3 End */}
           </div>
         </div>
       </section>

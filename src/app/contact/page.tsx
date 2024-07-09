@@ -4,17 +4,26 @@ import { useState } from "react";
 import { sendEmail } from "../utils/sendEmail";
 
 const Contact: NextPage = () => {
+  const [loading, setLoading] = useState(false)
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
-  const [status, setStatus] = useState('');
   const handleSubmit = async (e: React.FormEvent) => {
+    setLoading(true)
     e.preventDefault();
     try {
+      if(!email) {
+        return alert('Please Enter Email!')
+      }
       await sendEmail({ from: email, subject, text: message });
-      setStatus('Email sent successfully!');
+      alert('Email sent successfully!');
+      setEmail('')
+      setSubject('')
+      setMessage('')
+      setLoading(false)
     } catch (error) {
-      setStatus('Failed to send email. Please try again later.');
+      alert('Failed to send email. Please try again later.');
+      setLoading(false)
     }
   };
   return (
@@ -27,7 +36,6 @@ const Contact: NextPage = () => {
             </div>
           </div>
           <div className="row">
-            {/* contact-info-item */}
             <div className="contact-info-item padd-15">
               <div className="icon">
                 <i className="fa fa-map-marker" />
@@ -35,8 +43,6 @@ const Contact: NextPage = () => {
               <h4>Address</h4>
               <p>116, Amipark Socity, Kargil Chowk, Punagam, Surat, Gujarat, 395010.</p>
             </div>
-            {/* contact-info-item Ended */}
-            {/* contact-info-item */}
             <div className="contact-info-item padd-15">
               <div className="icon">
                 <i className="fa fa-phone" />
@@ -44,8 +50,6 @@ const Contact: NextPage = () => {
               <h4>Call Us On</h4>
               <p>+91 9537267385</p>
             </div>
-            {/* contact-info-item Ended */}
-            {/* contact-info-item */}
             <div className="contact-info-item padd-15">
               <div className="icon">
                 <i className="fa fa-envelope" />
@@ -53,9 +57,7 @@ const Contact: NextPage = () => {
               <h4>Email</h4>
               <p>dharmik.kachhadiya.02@gmail.com</p>
             </div>
-            {/* contact-info-item Ended */}
           </div>
-          {/* Contact Form */}
           <div className="row">
             <form className="contact-form padd-15" onSubmit={handleSubmit}>
               <div className="row">
@@ -107,15 +109,14 @@ const Contact: NextPage = () => {
                 </div>
               </div>
               <div className="row">
-                <div className="col-12 padd-15">
-                  <button type="submit" className="btn">
+                <div className="col-12 padd-15" style={{ textAlign: 'center' }}>
+                  <button type="submit"disabled={loading} className="btn" style={{ backgroundColor: loading ? 'gray' : '' }}>
                     Send Message
                   </button>
                 </div>
               </div>
             </form>
           </div>
-          {/* Contact Form Ended */}
         </div>
       </section>
     </>

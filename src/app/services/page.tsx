@@ -7,7 +7,7 @@ const Service: NextPage = () => {
         <div className="container">
           <div className="row">
             <div className="section-title padd-15">
-              <h2>Our Services</h2>
+              <h2>Services</h2>
             </div>
           </div>
           <div className="row">
@@ -28,7 +28,7 @@ const Service: NextPage = () => {
             </div>
             <div className="service-item padd-15">
               <div className="service-item-inner">
-                <div className="icon"><i className="fa fa-wordpress" /></div>
+                <div className="icon"><i className="fa fa-cart-plus" /></div>
                 <h4>E-commerce Solutions</h4>
                 <p>E-commerce solutions involve the development and integration of online platforms that facilitate buying and selling of goods or services, ensuring seamless transactions and enhanced user experiences.</p>
               </div>
@@ -42,7 +42,7 @@ const Service: NextPage = () => {
             </div>
             <div className="service-item padd-15">
               <div className="service-item-inner">
-                <div className="icon"><i className="fa fa-film" /></div>
+                <div className="icon"><i className="fa fa-connectdevelop" /></div>
                 <h4>Back-End Development</h4>
                 <p>Back-end development involves creating and maintaining the server-side logic and databases that power websites and applications, ensuring functionality, security, and seamless integration with front-end interfaces.</p>
               </div>

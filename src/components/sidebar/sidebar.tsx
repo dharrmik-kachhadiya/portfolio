@@ -25,9 +25,8 @@ const Sidebar = () => {
         <div className="logo">
           <img
               src="/imgs/logo.png"
-              alt="Al Siam Profile"
               className="shadow-dark"
-              style={{ height: '200px', width: '200px', borderRadius: '50%', display: "inline-block", border: '8px solid #ffff' }}
+              style={{ height: '120px', width: '120px', borderRadius: '50%', display: "inline-block", border: '8px solid #ffff' }}
             />
         </div>
         <ul className="nav">

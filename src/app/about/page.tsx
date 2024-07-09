@@ -57,7 +57,7 @@ const About: NextPage = () => {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="buttons padd-15">
+                    <div className="buttons padd-15" style={{ textAlign: 'center' }}>
                       <a
                         href="/assets/Dharmik.pdf"
                         target="_target"
@@ -81,28 +81,28 @@ const About: NextPage = () => {
                     <div className="skill-item padd-15">
                       <h5>Javascript</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "80%" }} />
+                        <div className="progress-in" style={{ width: "95%" }} />
                         <div className="skill-percent">95%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>React js</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "60%" }} />
+                        <div className="progress-in" style={{ width: "90%" }} />
                         <div className="skill-percent">90%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>Vue js</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "50%" }} />
+                        <div className="progress-in" style={{ width: "80%" }} />
                         <div className="skill-percent">80%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>Next js</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "70%" }} />
+                        <div className="progress-in" style={{ width: "90%" }} />
                         <div className="skill-percent">90%</div>
                       </div>
                     </div>
@@ -115,7 +115,6 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="timeline-box padd-15">
                       <div className="timeline shadow-dark">
-                        {/* Timeline Item */}
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
@@ -128,10 +127,6 @@ const About: NextPage = () => {
                             In 2024, I started my Master of Computer Applications (MCA) program at Jain University in Bangalore. This program is designed to provide in-depth knowledge and skills in computer science, preparing me for advanced roles in the IT industry.
                           </p>
                         </div>
-                        {/* Timeline Item end */}
-                        {/* Timeline Item */}
-                        {/* Timeline Item end */}
-                        {/* Timeline Item */}
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
@@ -156,7 +151,6 @@ const About: NextPage = () => {
                             In 2019, I began learning full-stack development at Creative Multimedia Institute. This training covered both front-end and back-end technologies, enabling me to build comprehensive web applications. The hands-on experience and projects helped me gain practical skills and a deep understanding of web development.
                           </p>
                         </div>
-                        {/* Timeline Item end */}
                       </div>
                     </div>
                   </div>
@@ -166,7 +160,6 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="timeline-box padd-15">
                       <div className="timeline shadow-dark">
-                        {/* Timeline Item */}
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
@@ -178,8 +171,6 @@ const About: NextPage = () => {
                           </p>
                         </div>
 
-                        {/* Timeline Item end */}
-                        {/* Timeline Item */}
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
@@ -191,8 +182,6 @@ const About: NextPage = () => {
                           </p>
                         </div>
 
-                        {/* Timeline Item end */}
-                        {/* Timeline Item */}
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
@@ -204,7 +193,6 @@ const About: NextPage = () => {
                           </p>
                         </div>
 
-                        {/* Timeline Item end */}
                       </div>
                     </div>
                   </div>
