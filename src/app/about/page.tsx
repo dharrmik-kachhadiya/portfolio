@@ -18,7 +18,7 @@ const About: NextPage = () => {
                     I am Dharmik Kachhadiya, a <span>FULL-STACK DEVELOPER</span>
                   </h2>
                   <p>
-                    Hi! My name is Dharmik Kachhadiya. I am a full-stack developer with 2+ years of experience. I am very passionate and dedicated to my work. With over 2 years of experience as a full-stack developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the development process, from discussion to collaboration.
+                    Hi! My name is Dharmik Kachhadiya. I am a full-stack developer with 3+ years of experience. I am very passionate and dedicated to my work. With over 2 years of experience as a full-stack developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the development process, from discussion to collaboration.
                   </p>
                 </div>
               </div>
